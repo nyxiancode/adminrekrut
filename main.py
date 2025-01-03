@@ -51,7 +51,7 @@ async def set_division(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
 # Initial welcome message with video
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     if not registration_open:
-        await update.message.reply_text("Pendaftaran telah ditutup.")
+        await update.message.reply_text("Pendaftaran belum dibuka atau sudah di tutup,untuk info lihat @NyxianNetwork.")
         return
 
     keyboard = [[InlineKeyboardButton("Lanjutkan Mendaftar", callback_data='continue_register')]]
