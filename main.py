@@ -78,6 +78,8 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
             "ⓘ Bisa Menghormati Admin dan Member Lain\n"
             "ⓘ Memasang Pdn/Title\n"
             "ⓘ Menjalankan Trial 3 Hari\n"
+            "ⓘ Meramaikan Typing dan Os\n"
+            "ⓘ Meminta izin terlebih dahulu ( jika akan off dalam waktu lam)\n"
             "ⓘ Siap Diberikan Tugas Apapun Selama Tidak Di Luar Logika\n"
             "ⓘ Bisa Menjaga Privasi Diri Sendiri dan Tidak Membocorkannya ke Sembarang Orang\n\n"
             "Peringatan:\n\n"
