@@ -26,7 +26,7 @@ async def register(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
             await update.message.reply_text("Pendaftaran telah dibuka.")
         elif context.args and context.args[0].lower() == 'off':
             registration_open = False
-            await update.message.reply_text("Pendaftaran telah ditutup.")
+            await update.message.reply_text("Pendaftaran belum dibuka atau sudah di tutup,untuk info lihat @NyxianNetwork.")
         else:
             await update.message.reply_text("Gunakan /register on untuk membuka pendaftaran atau /register off untuk menutup pendaftaran.")
     else:
